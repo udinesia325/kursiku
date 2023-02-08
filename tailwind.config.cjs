@@ -6,12 +6,13 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: true
+      center: true,
     },
     extend: {
       'colors': {
-        'primary': "#bbd0e5",
-        'secondary': '#ff7814'
+        'primary': "#ff7814",
+        'secondary': '#ff7814',
+        'secondary-light': '#ff9816'
       },
       'fontFamily': {
         'sans': ['Poppins', 'sans-serif'],

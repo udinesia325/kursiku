@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import feather from "feather-icons"
 import Layanan from "./pages/Layanan"
+import Produk from "./pages/Produk"
 function App() {
   useEffect(() => {
     feather.replace()
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Layanan />
+      <Produk />
     </div>
   )
 }
