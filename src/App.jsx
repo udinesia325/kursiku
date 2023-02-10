@@ -6,6 +6,7 @@ import Hero from './pages/Hero'
 import feather from "feather-icons"
 import Layanan from "./pages/Layanan"
 import Produk from "./pages/Produk"
+import Testimoni from "./pages/Testimoni"
 function App() {
   useEffect(() => {
     feather.replace()
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Layanan />
       <Produk />
+      <Testimoni />
     </div>
   )
 }

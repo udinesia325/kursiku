@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="fixed top-0 left-0 right-0 backdrop-blur-lg bg-[rgba(255,255,255,0.8)] px-3 py-4 z-20">
             <div className="container flex justify-between items-center">
-                <h1 className="font-bold text-2xl">Kursi <span className="text-secondary">Ku</span></h1>
+                <a href="#" className="font-bold text-2xl">Kursi <span className="text-secondary">Ku</span></a>
                 <div onClick={() => setShow(true)} className=" mr-4 md:hidden">
                     <i data-feather="menu"></i>
                 </div>
