@@ -3,7 +3,7 @@ import NavItemMobile from "./NavItemMobile"
 
 const Navbar = () => {
     const [show, setShow] = useState(false)
-    console.log(show)
+
     return (
         <div className="fixed top-0 left-0 right-0 backdrop-blur-lg bg-[rgba(255,255,255,0.8)] px-3 py-4 z-20">
             <div className="container flex justify-between items-center">

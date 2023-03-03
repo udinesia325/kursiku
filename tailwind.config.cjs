@@ -12,7 +12,8 @@ module.exports = {
       'colors': {
         'primary': "#ff7814",
         'secondary': '#ff7814',
-        'secondary-light': '#ff9816'
+        'secondary-light': '#ff9816',
+        'primary-deep': '#bb4001'
       },
       'fontFamily': {
         'sans': ['Poppins', 'sans-serif'],
