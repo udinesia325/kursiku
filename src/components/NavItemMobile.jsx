@@ -16,7 +16,7 @@ const NavItemMobile = ({ show, setShow }) => {
         </div>
     )
 }
-const NavItem = ({ text }) => {
+export const NavItem = ({ text }) => {
     return <a href={`#${text}`} className="tracking-wide">{text}</a>
 }
 export default NavItemMobile
