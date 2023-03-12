@@ -12,7 +12,7 @@ const Navbar = () => {
                 {/*khsusus untuk desktop*/}
                 <ul className="hidden md:flex justify-between gap-x-4 mr-4">
                     {navChild.map((nav, _i) => (
-                        <li><NavItem key={_i} text={nav} /></li>
+                        <li key={_i}><NavItem  text={nav} /></li>
                     ))}
                 </ul>
                 <div onClick={() => setShow(true)} className=" mr-4 md:hidden">
